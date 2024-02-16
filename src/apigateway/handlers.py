@@ -9,10 +9,8 @@ from aiohttp import web
 import aiohttp.web_exceptions
 
 from circuit_breaker import CircuitBreaker
-from repo import PersonaRepo
 from route import routes
-from schema import PersonRequest
-from schema import PersonResponse
+
 
 cb = CircuitBreaker()
 retry_coros = []

@@ -1,8 +1,6 @@
 from aiohttp import web
 from aiohttp.web_middlewares import middleware
 
-from schema import ErrorResponse
-
 
 @middleware
 async def serializer(req: web.Request, handler):

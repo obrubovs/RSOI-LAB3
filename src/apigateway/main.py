@@ -5,7 +5,6 @@ from typing import Optional, Any
 from aiohttp import web
 
 import exc_handler
-import route
 import serializer
 from handlers import *
 
